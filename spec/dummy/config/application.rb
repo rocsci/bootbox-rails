@@ -10,6 +10,7 @@ require "sprockets/railtie"
 
 Bundler.require
 require "bootbox-rails"
+require "bootstrap-sass"
 
 module Dummy
   class Application < Rails::Application
