@@ -12,7 +12,7 @@ First, put this line in your `Gemfile`:
 gem 'bootbox-rails'
 ```
 
-__Don't forget to add `jquery-rails` gem into your `Gemfile`. Also you may use very handy `bootstrap-sass` gem to add full stack of Twitter Bootstrap into your app.__
+_Don't forget to add `jquery-rails` gem into your `Gemfile`. Also you may use very handy `bootstrap-sass` gem to add full stack of Twitter Bootstrap into your app._
 
 Then run `bundle install` to update your application's bundle.
 
@@ -41,3 +41,27 @@ $(function() {
 ```
 
 Please see http://paynedigital.com/bootbox for full usage instructions, or head over to http://bootboxjs.com for a demo page
+
+## License
+
+(The MIT License)
+
+Copyright (C) 2011-2012 by http://rocketscience.it <demerest@gmail.com> 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE
