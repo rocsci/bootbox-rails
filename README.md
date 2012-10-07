@@ -1,4 +1,4 @@
-# bootbox-rails
+# bootbox-rails [![Build Status](https://secure.travis-ci.org/tanraya/bootbox-rails.png)](http://travis-ci.org/tanraya/bootbox-rails)
 
 Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework for Rails 3.1+
 
