@@ -44,4 +44,4 @@ Please see http://paynedigital.com/bootbox for full usage instructions, or head 
 
 ## License
 
-[The MIT License](https://github.com/tanraya/bootbox-rails)
+[The MIT License](https://github.com/tanraya/bootbox-rails/blob/master/MIT-LICENSE)
