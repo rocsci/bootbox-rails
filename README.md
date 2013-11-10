@@ -6,10 +6,16 @@ Check out how to use bootbox.js at http://bootboxjs.com/
 
 ## Installation
 
-First, put this line in your `Gemfile`:
+First, put this line in your `Gemfile` (for Bootstrap 3):
 
 ```ruby
-gem 'bootbox-rails'
+gem 'bootbox-rails', '~>0.2'
+```
+
+For Bootstrap 2 use following version:
+
+```ruby
+gem 'bootbox-rails', '~>0.1'
 ```
 
 _Don't forget to add `jquery-rails` gem into your `Gemfile`. Also you may use very handy `bootstrap-sass` gem to add full stack of Twitter Bootstrap into your app._
