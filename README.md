@@ -48,6 +48,11 @@ $(function() {
 
 Please see http://paynedigital.com/bootbox for full usage instructions, or head over to http://bootboxjs.com for a demo page
 
+## How to run tests
+
+`$ cd spec/dummy && rake db:create`
+`$ rspec spec/`
+
 ## License
 
 [The MIT License](https://github.com/tanraya/bootbox-rails/blob/master/MIT-LICENSE)
