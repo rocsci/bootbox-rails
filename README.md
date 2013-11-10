@@ -50,8 +50,10 @@ Please see http://paynedigital.com/bootbox for full usage instructions, or head 
 
 ## How to run tests
 
-`$ cd spec/dummy && rake db:create`
-`$ rspec spec/`
+```bash
+$ cd spec/dummy && rake db:create
+$ rspec spec/
+```
 
 ## License
 
