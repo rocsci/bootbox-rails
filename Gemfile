@@ -4,8 +4,8 @@ gemspec
 gem 'sqlite3'
 
 group :assets do
-  gem 'sass-rails', ">= 3.1.0"
-  gem 'coffee-rails', ">= 3.1.0"
+  gem 'sass-rails', "~>3.1"
+  gem 'coffee-rails', "~>3.1"
   gem 'uglifier'
   gem 'bootstrap-sass', '3.0.2.0'
 end
