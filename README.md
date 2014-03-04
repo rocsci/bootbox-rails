@@ -15,7 +15,7 @@ gem 'bootbox-rails', '~>0.2'
 For Bootstrap 2 use following version:
 
 ```ruby
-gem 'bootbox-rails', '~>0.1'
+gem 'bootbox-rails', '~>0.1.0'
 ```
 
 _Don't forget to add `jquery-rails` gem into your `Gemfile`. Also you may use very handy `bootstrap-sass` gem to add full stack of Twitter Bootstrap into your app._
