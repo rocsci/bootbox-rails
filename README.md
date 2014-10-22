@@ -9,7 +9,7 @@ Check out how to use bootbox.js at http://bootboxjs.com/
 First, put this line in your `Gemfile` (for Bootstrap 3):
 
 ```ruby
-gem 'bootbox-rails', '~>0.3'
+gem 'bootbox-rails', '~>0.4'
 ```
 
 For Bootstrap 2 use following version:
