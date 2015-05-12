@@ -2,7 +2,6 @@
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../dummy/config/environment", __FILE__)
 require 'rspec/rails'
-require 'rspec/autorun'
 require 'capybara/rspec'
 require 'capybara-webkit'
 
@@ -40,5 +39,5 @@ RSpec.configure do |config|
   # --seed 1234
   #config.order = "random"
  
-  config.include Capybara::DSL, :example_group => { :file_path => /\bspec\/requests\// }
+  config.include Capybara::DSL, { :file_path => /\bspec\/requests\// }
 end

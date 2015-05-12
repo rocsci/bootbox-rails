@@ -4,16 +4,16 @@ require 'spec_helper'
 feature "Visiting homepage" do
   scenario "homepage haven't error status" do
     visit root_path
-    page.status_code.should be 200
+    expect(page.status_code).to eq(200)
   end
 
   scenario "we should see bootbox modal when visiting homepage", :js => true do
     visit root_path
 
-    has_selector?(".bootbox").should be_false
+    expect(has_selector?(".bootbox")).to be false
 
     # Show modal
     page.execute_script("$('#link').click()")
-    find('.bootbox').visible?.should be_true
+    expect(find('.bootbox').visible?).to be true
   end
 end
